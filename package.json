@@ -1,0 +1,26 @@
+{
+  "name": "modulo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Dairo Manosalva - damanosalvag",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.2"
+  }
+}
